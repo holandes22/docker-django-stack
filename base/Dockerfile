@@ -1,5 +1,7 @@
 FROM phusion/baseimage:0.9.16
 
+MAINTAINER Pablo Klijnjan <pabloklijnjan@gmail.com>
+
 CMD ["/sbin/my_init"]
 
 RUN apt-get update && apt-get install -y \
